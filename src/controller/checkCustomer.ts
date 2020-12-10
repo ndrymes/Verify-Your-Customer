@@ -1,6 +1,5 @@
 import { config } from '../config/index';
 
-
 //makes sure that data input to function complies with this shape
 interface kycRequestBody {
   birthDate: string;
@@ -13,12 +12,12 @@ interface kycRequestBody {
 }
 
 /**
-   * @name checkCustomer
-   * @description This function takes in user details to check their kyc(know your customer)
-   * @param interface kycRequestBody  the transaction id
-   * @returns {} an empty promise when complete
-   */
-  
+ * @name checkCustomer
+ * @description This function takes in user details to check their kyc(know your customer)
+ * @param interface kycRequestBody  the transaction id
+ * @returns {} an empty promise when complete
+ */
+
 export const checkCustomer = ({
   validateUser,
   axios,

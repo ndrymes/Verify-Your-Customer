@@ -1,4 +1,4 @@
-import { DI } from '../awilix';
+import { DI } from './awilix';
 
 const customer: Function = DI.resolve('checkCustomer');
 customer({
