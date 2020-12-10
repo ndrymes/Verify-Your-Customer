@@ -1,0 +1,11 @@
+{
+  "name": "knowyourcustomer",
+  "version": "1.0.0",
+  "description": "checks customer kyc level to know how much money can be moved",
+  "main": "app.js",
+  "scripts": {
+    "test": "env TS_NODE_PROJECT=\"tsconfig.testing.json\" mocha --require ts-node/register 'src/test/**/*.ts'"
+  },
+  "author": "Sunmonu Oluwole",
+  "license": "ISC"
+}
