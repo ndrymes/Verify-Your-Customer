@@ -8,4 +8,4 @@ simpleMock.mock(axios, 'post').callFn((testurl) => {
   };
 });
 
-module.exports = axios;
+export { axios };

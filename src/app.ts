@@ -1,5 +1,5 @@
 import { DI } from './awilix';
-
+//import the function and call with input data
 const customer: Function = DI.resolve('checkCustomer');
 customer({
   birthDate: '1985-02-08',
