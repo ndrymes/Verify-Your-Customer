@@ -4,7 +4,8 @@
       "module": "commonjs",
       "moduleResolution": "node",
       "outDir": "dist",
-      "sourceMap": false
+      "sourceMap": false,
+      "types": ["mocha"]
     },
     "include": [
       "src/**/*.ts", "src/awilix.ts"
