@@ -7,7 +7,7 @@
       "sourceMap": false
     },
     "include": [
-      "src/**/*.ts", "awilix.ts"
+      "src/**/*.ts", "src/awilix.ts"
     ],
     "exclude": [
       "node_modules"
